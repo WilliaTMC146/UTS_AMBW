@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             children: [
               Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
                       children: const [
@@ -35,7 +35,8 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Column(children: const [
                           Icon(
